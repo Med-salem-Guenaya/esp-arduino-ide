@@ -4,16 +4,16 @@
 // #include <ArduinoOTA.h> (Uncomment if you are using PlatformIO)
 
 // Wi-Fi and ThingsBoard configuration
-constexpr char WIFI_SSID[] = "Wokwi-GUEST";
-constexpr char WIFI_PASSWORD[] = "";
-constexpr char TOKEN[] = "zlfeW9lsoRJBb1jTQki3";
-constexpr char THINGSBOARD_SERVER[] = "thingsboard.cloud";
+constexpr char WIFI_SSID[] = "maison";
+constexpr char WIFI_PASSWORD[] = "nouakchott";
+constexpr char TOKEN[] = "8SZqVkYWjzJzJvM7Ud2R";
+constexpr char THINGSBOARD_SERVER[] = "192.168.1.194";
 constexpr uint16_t THINGSBOARD_PORT = 1883U;
 constexpr uint32_t MAX_MESSAGE_SIZE = 1024U;
 constexpr uint32_t SERIAL_DEBUG_BAUD = 115200U;
 
 // Pin definition for the LED
-constexpr uint8_t LED_PIN = 13;
+constexpr uint8_t LED_PIN = 2;
 
 // Global variables
 bool ledState = false;  // LED state
