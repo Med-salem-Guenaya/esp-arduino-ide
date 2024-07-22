@@ -4,10 +4,10 @@
 // #include <ArduinoOTA.h> (Uncomment if you are using PlatformIO)
 
 // Wi-Fi and ThingsBoard configuration
-constexpr char WIFI_SSID[] = "ETUDIANT";
-constexpr char WIFI_PASSWORD[] = "Etudiant**2021$";
-constexpr char TOKEN[] = "pOG3FEaVprcWA4qJRIdU";
-constexpr char THINGSBOARD_SERVER[] = "10.110.10.132";
+constexpr char WIFI_SSID[] = "wifi_name";
+constexpr char WIFI_PASSWORD[] = "wifi_password";
+constexpr char TOKEN[] = "device_token";
+constexpr char THINGSBOARD_SERVER[] = "address_or_domain_name";
 constexpr uint16_t THINGSBOARD_PORT = 1883U;
 constexpr uint32_t MAX_MESSAGE_SIZE = 1024U;
 constexpr uint32_t SERIAL_DEBUG_BAUD = 115200U;
